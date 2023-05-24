@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Neckband Miwi",
+    "description": "User neckband miwi for sale at 50% discount with 1 year warranty and 1 month replacement guarantee and 1 month return policy.",
+    "image": "assets/images/eaarphone.jpeg",
+    "price": "Rs. 500"
+  },
+  {
+    "id": "2",
+    "title": "Hyundai Creta",
+    "description": "Used Car Hyundai Creta for sale at 50% discount with 1 year warranty and 1 month replacement guarantee and 1 month return policy.",
+    "image": "assets/images/car.jpg",
+    "price": "Rs. 500000"
+  },
+  {
+    "id": "3",
+    "title": "Honda CB Shine",
+    "description": "Used Bike Honda CB Shine for sale at 50% discount with 1 year warranty and 1 month replacement guarantee and 1 month return policy.",
+    "image": "assets/images/bike.jpg",
+    "price": "Rs. 50000"
+  },
+  {
+    "id": "4",
+    "title": "Dell Workstation Laptop",
+    "description": "Used Laptop Dell Workstation for sale at 50% discount with 1 year warranty and 1 month replacement guarantee and 1 month return policy.",
+    "image": "assets/images/laptop.jpeg",
+    "price": "Rs. 50000"
+  },
+  {
+    "id": "5",
+    "title": "IPhone 6",
+    "description": "Used Phone IPhone 6 for sale at 50% discount with 1 year warranty and 1 month replacement guarantee and 1 month return policy.",
+    "image": "assets/images/phone.jpeg",
+    "price": "Rs. 50000"
+  }
+]

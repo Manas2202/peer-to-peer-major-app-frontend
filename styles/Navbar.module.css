@@ -1,0 +1,75 @@
+/* Navbar */
+.nav {
+  width: 100%;
+  background-color: #1A237E;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.nav > .nav_header {
+  flex: 0.95;
+  padding-left: 1rem;
+}
+.nav > .nav_header > .nav_title {
+  font-size: 22px;
+  color: #fff;
+}
+.nav > .nav_list {
+  display: flex;
+  gap: 2rem;
+}
+.nav > .nav_list > li {
+  list-style-type: none;
+}
+.nav > .nav_list > li a {
+  text-decoration: none;
+  color: #efefef;
+  cursor: pointer;
+}
+.nav > #nav_check {
+    display: none;
+}
+@media (max-width: 480px) {
+  .nav {
+    padding: 1rem;
+  }
+  .nav > .nav_btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+  }
+  .nav > .nav_btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav_btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav_list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background-color: #1A237E;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 40px;
+    left: 0;
+    overflow: hidden;
+  }
+  .nav > .nav_list > li {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .nav > #nav_check:checked ~ .nav_list {
+    height: calc(100vh - 50px);
+  }
+}
